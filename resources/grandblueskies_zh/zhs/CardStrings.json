@@ -1,0 +1,295 @@
+{
+  "granblueskies:ExampleCard": {
+    "NAME": "名称",
+    "DESCRIPTION": "描述。 NL 第二行。",
+    "UPGRADE_DESCRIPTION": "升级后显示这段说明；如不需要可移除。",
+    "EXTENDED_DESCRIPTION": [
+      "可在这里添加额外说明。",
+      "供需要时使用。",
+      "可参考「暴雪」的写法。"
+    ]
+  },
+  "granblueskies:DaggerOfBahamut": {
+    "NAME": "巴哈姆特短剑",
+    "DESCRIPTION": "锻造巴哈姆特短剑。 NL （战斗开始时获得 1 点 敏捷 。）",
+    "UPGRADE_DESCRIPTION": "锻造巴哈姆特短剑·终章。 NL （战斗开始时获得 2 点 敏捷 ，最大生命增加 4 点。）"
+  },
+  "granblueskies:SwordOfBahamut": {
+    "NAME": "巴哈姆特之剑",
+    "DESCRIPTION": "锻造巴哈姆特之剑。 NL （战斗开始时获得 1 点 力量 。）",
+    "UPGRADE_DESCRIPTION": "锻造巴哈姆特之剑·终章。 NL （战斗开始时获得 2 点 力量 ，最大生命增加 4 点。）"
+  },
+  "granblueskies:StaffOfBahamut": {
+    "NAME": "巴哈姆特法杖",
+    "DESCRIPTION": "锻造巴哈姆特法杖。 NL （战斗开始时获得 1 点 集中 。）",
+    "UPGRADE_DESCRIPTION": "锻造巴哈姆特法杖·终章。 NL （战斗开始时获得 2 点 集中 ，最大生命增加 4 点。）"
+  },
+  "granblueskies:HarpOfBahamut": {
+    "NAME": "巴哈姆特竖琴",
+    "DESCRIPTION": "锻造巴哈姆特竖琴。 NL （战斗开始时获得一张奇迹。）",
+    "UPGRADE_DESCRIPTION": "锻造巴哈姆特竖琴·终章。 NL （战斗开始时获得一张奇迹+，最大生命增加 4 点。）"
+  },
+  "granblueskies:TiamatOmega": {
+    "NAME": "提亚马特的召唤",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 给予所有敌人 !M! 层 虚弱 。"
+  },
+  "granblueskies:ColossusOmega": {
+    "NAME": "科罗萨斯的召唤",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 获得 !B! 点 格挡 。"
+  },
+  "granblueskies:LeviathanOmega": {
+    "NAME": "利维坦的召唤",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 给予所有敌人 !M! 层 易伤 。"
+  },
+  "granblueskies:YggdrasilOmega": {
+    "NAME": "尤格多拉希尔的召唤",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 随机执行下列一项，共 !M! 次： NL 获得 1 点 临时力量 ； NL 或获得 1 点 临时敏捷 。"
+  },
+  "granblueskies:LuminieraOmega": {
+    "NAME": "修瓦利耶的召唤",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 移除目标身上的正数 力量 和 敏捷 。"
+  },
+  "granblueskies:CelesteOmega": {
+    "NAME": "塞勒斯特的召唤",
+    "DESCRIPTION": "移除目标的 格挡 。 NL 造成等同于移除量一半的伤害。 NL ",
+    "EXTENDED_DESCRIPTION": [
+      "（造成 !D! 点伤害。）"
+    ]
+  },
+  "granblueskies:ShivaCall": {
+    "NAME": "湿婆的召唤",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !M! 层 活力 。 NL 消耗"
+  },
+  "granblueskies:EuropaCall": {
+    "NAME": "欧罗巴的召唤",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 回复 !M! 点生命。 NL 消耗"
+  },
+  "granblueskies:AlexielCall": {
+    "NAME": "布洛蒂亚的召唤",
+    "DESCRIPTION": "获得 !M! 层 无实体 。 NL 获得 !B! 点 格挡 。 NL 消耗"
+  },
+  "granblueskies:GrimnirCall": {
+    "NAME": "格里姆尼尔的召唤",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !B! 点 格挡 。 NL 消耗"
+  },
+  "granblueskies:AthenaCall": {
+    "NAME": "雅典娜的召唤",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 本回合受到的伤害降低 !M!%。 NL 消耗",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 本回合受到的伤害降低 !M!%。"
+  },
+  "granblueskies:GraniCall": {
+    "NAME": "格拉尼的召唤",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 目标失去 !M! 点 临时力量 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 目标失去 !M! 点 力量 。 NL 消耗"
+  },
+  "granblueskies:BaalCall": {
+    "NAME": "巴尔的召唤",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !M! 层 人工制品 。 NL 消耗",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !M! 层 人工制品 。"
+  },
+  "granblueskies:GarudaCall": {
+    "NAME": "迦楼罗的召唤",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !M! 点 临时敏捷 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !M! 点 敏捷 。 NL 消耗"
+  },
+  "granblueskies:WedgesOfTheSky": {
+    "NAME": "苍空之楔",
+    "DESCRIPTION": "不能被打出。无法从牌组中移除。",
+    "EXTENDED_DESCRIPTION": [
+      "NL 对所有敌人造成 !D! 点伤害。",
+      "NL 获得 !B! 点 格挡 。",
+      "NL 获得 !M! 点 力量 、敏捷 和 集中 。",
+      "NL 获得 !M! 点 力量 和 集中 。",
+      "NL 获得 !M! 点 敏捷 。",
+      "NL 给予所有敌人 !M! 层 虚弱 和 易伤 。",
+      "NL 给予所有敌人 !M! 层 虚弱 。",
+      "NL 给予所有敌人 !M! 层 易伤 。",
+      "NL 抽 !M! 张牌。",
+      "NL 抽 !M! 张牌。"
+    ]
+  },
+  "granblueskies:UpgradeWedgesWilnas": {
+    "NAME": "威尔纳斯的色彩",
+    "DESCRIPTION": "*苍 *空 *之 *楔 永久追加： NL 抽到时，对所有敌人造成 !D! 点伤害。"
+  },
+  "granblueskies:UpgradeWedgesWamdus": {
+    "NAME": "瓦姆杜斯的色彩",
+    "DESCRIPTION": "*苍 *空 *之 *楔 永久追加： NL 抽到时，抽 !M! 张牌。"
+  },
+  "granblueskies:UpgradeWedgesEwiyar": {
+    "NAME": "伊维亚的色彩",
+    "DESCRIPTION": "*苍 *空 *之 *楔 永久追加： NL 抽到时，获得 !M! 点 敏捷 。"
+  },
+  "granblueskies:UpgradeWedgesGalleon": {
+    "NAME": "伽莱翁的色彩",
+    "DESCRIPTION": "*苍 *空 *之 *楔 永久追加： NL 抽到时，获得 !B! 点 格挡 。"
+  },
+  "granblueskies:UpgradeWedgesLuWoh": {
+    "NAME": "露·欧的色彩",
+    "DESCRIPTION": "*苍 *空 *之 *楔 永久追加： NL 抽到时，获得 !B! 点 力量 和 集中 。"
+  },
+  "granblueskies:UpgradeWedgesFediel": {
+    "NAME": "菲迪埃尔的色彩",
+    "DESCRIPTION": "*苍 *空 *之 *楔 永久追加： NL 抽到时，给予所有敌人 !M! 层 虚弱 和 易伤 。"
+  },
+  "granblueskies:JusticeTransferPower": {
+    "NAME": "承受惩戒",
+    "DESCRIPTION": "保留 NL 受到 !D! 点伤害。 NL 将你身上的全部 granblueskies:不义 转移给目标。 NL 消耗"
+  },
+  "granblueskies:TheAzuresHalo": {
+    "NAME": "碧之光轮",
+    "DESCRIPTION": "获得 !M! 点 敏捷 。 NL 获得 !M! 层 人工制品 。 NL 本回合免受可被格挡的伤害。"
+  },
+  "granblueskies:TheVermillionsGlare": {
+    "NAME": "朱之威光",
+    "DESCRIPTION": "本回合你的 攻击 造成双倍伤害。 NL 获得 !M! 层 人工制品 。"
+  },
+  "granblueskies:TheEmeraldsWindfall": {
+    "NAME": "翠之恩泽",
+    "DESCRIPTION": "每回合打出的第一张牌，会在回合结束时再打出一次。"
+  },
+  "granblueskies:TheGoldsFoundation": {
+    "NAME": "金之基石",
+    "DESCRIPTION": "获得 !M! 层 人工制品 。 NL 若本回合未打出任何 攻击牌 ，回合结束时获得 !M! 点 力量 。"
+  },
+  "granblueskies:TheWhitesLightfield": {
+    "NAME": "白之光域",
+    "DESCRIPTION": "你的回合结束时，获得 !M! 点 格挡 ，所有敌人各回复 1 点生命。"
+  },
+  "granblueskies:TheBlacksEncroachment": {
+    "NAME": "黑之侵蚀",
+    "DESCRIPTION": "受到的 攻击 伤害减少 !M! 点。 NL 你的回合结束时，失去 1 点生命。"
+  },
+  "granblueskies:ArcarumJusticeCard": {
+    "NAME": "正义",
+    "DESCRIPTION": "granblueskies:阿卡姆牌 NL 平衡你与目标的 格挡 。",
+    "UPGRADE_DESCRIPTION": "granblueskies:阿卡姆牌 NL 平衡你与目标的 格挡 。 NL 造成 !D! 点伤害。"
+  },
+  "granblueskies:ArcarumHangedManCard": {
+    "NAME": "倒吊人",
+    "DESCRIPTION": "granblueskies:阿卡姆牌 NL 造成 !D! 点伤害。 NL 移除自身 1 个减益。 NL 随机获得 1 点 临时力量 或 临时敏捷 。",
+    "UPGRADE_DESCRIPTION": "granblueskies:阿卡姆牌 NL 造成 !D! 点伤害。 NL 移除自身 1 个减益。 NL 获得 1 点 临时力量 或 临时敏捷 。"
+  },
+  "granblueskies:ArcarumDeathCard": {
+    "NAME": "死神",
+    "DESCRIPTION": "granblueskies:阿卡姆牌 NL 随机 消耗 手牌，直至剩下 !M! 张。 NL 至少 消耗 1 张。 NL 本回合剩余手牌的费用变为 0。 NL 消耗"
+  },
+  "granblueskies:ArcarumTemperanceCard": {
+    "NAME": "节制",
+    "DESCRIPTION": "granblueskies:阿卡姆牌 NL 造成 !D! 点伤害。 NL 生命越接近 50%，伤害越高。"
+  },
+  "granblueskies:ArcarumDevilCard": {
+    "NAME": "恶魔",
+    "DESCRIPTION": "granblueskies:阿卡姆牌 NL 造成 !D! 点伤害。 NL 本回合目标受到的 攻击 伤害提高 !M!%，其 攻击 伤害降低 !M!%。"
+  },
+  "granblueskies:ArcarumTowerCard": {
+    "NAME": "塔",
+    "DESCRIPTION": "granblueskies:阿卡姆牌 NL 每打出一张 攻击牌 ，若指定一名敌人，则对随机敌人造成 !M! 点伤害；若以全体敌人为目标，则对所有敌人造成 !M! 点伤害。"
+  },
+  "granblueskies:ArcarumStarsCard": {
+    "NAME": "星",
+    "DESCRIPTION": "granblueskies:阿卡姆牌 NL 接下来的 !M! 回合内，你的生命不会低于 1 点。"
+  },
+  "granblueskies:ArcarumMoonCard": {
+    "NAME": "月",
+    "DESCRIPTION": "granblueskies:阿卡姆牌 NL 造成 !D! 点伤害。 NL 接下来的 3 个回合，你的 攻击 依次额外造成 1、2、3 点伤害。"
+  },
+  "granblueskies:ArcarumSunCard": {
+    "NAME": "太阳",
+    "DESCRIPTION": "granblueskies:阿卡姆牌 NL 本回合你打出的 攻击牌 会额外打出一次。"
+  },
+  "granblueskies:ArcarumJudgementCard": {
+    "NAME": "审判",
+    "DESCRIPTION": "granblueskies:阿卡姆牌 NL 从消耗牌堆选择一张牌加入手牌。 NL 2 回合后，消耗 当回合最先抽到的 !M! 张牌。 NL 消耗"
+  },
+  "granblueskies:InchoateWorldCard": {
+    "NAME": "胎动的世界",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 所有敌人失去 !M! 点生命。",
+    "UPGRADE_DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 所有敌人失去 !M! 点生命。 NL 升级所有 granblueskies:阿卡姆牌 。"
+  },
+  "granblueskies:OdiousBelmervolkCard": {
+    "NAME": "贝尔梅尔沃克的召唤",
+    "DESCRIPTION": "对 [#cc0000]所有生物[] 造成 !D! 点伤害。 NL 给予所有敌人 !M! 层 虚弱 。"
+  },
+  "granblueskies:OdiousMacutanmacarCard": {
+    "NAME": "马库坦马卡尔的召唤",
+    "DESCRIPTION": "对 [#cc0000]所有生物[] 造成 !D! 点伤害。 NL 给予所有敌人 !M! 层 易伤 。"
+  },
+  "granblueskies:OdiousNarophirmidasCard": {
+    "NAME": "纳罗菲尔米达斯的召唤",
+    "DESCRIPTION": "对 [#cc0000]所有生物[] 造成 !D! 点伤害。 NL [#cc0000]所有生物[] 失去 !M! 个增益。"
+  },
+  "granblueskies:OdiousNihuyvintaeCard": {
+    "NAME": "尼胡伊文泰的召唤",
+    "DESCRIPTION": "对 [#cc0000]所有生物[] 造成 !D! 点伤害。 NL 本轮随机使所有敌人造成的伤害降低 !M!%，或使其受到的伤害提高 !M!%。"
+  },
+  "granblueskies:OdiousPapahlukruvaCard": {
+    "NAME": "帕帕卢克鲁瓦的召唤",
+    "DESCRIPTION": "对 [#cc0000]所有生物[] 造成 !D! 点伤害。 NL 移除所有敌人的 人工制品 。"
+  },
+  "granblueskies:OdiousZamalvochCard": {
+    "NAME": "扎马尔沃克的召唤",
+    "DESCRIPTION": "对 [#cc0000]所有生物[] 造成 !D! 点伤害。 NL 获得 !B! 点 格挡 。"
+  },
+  "granblueskies:PapahlukruvaCurse": {
+    "NAME": "遮蔽帕帕卢克鲁瓦",
+    "DESCRIPTION": "保留 NL 帕帕卢克鲁瓦停止 *观察 。 NL 消耗"
+  },
+  "granblueskies:PrometheusCall": {
+    "NAME": "普罗米修斯的召唤",
+    "DESCRIPTION": "获得 !M! 点 力量 。 NL 获得 !B! 点 格挡 。"
+  },
+  "granblueskies:GilgameshCall": {
+    "NAME": "吉尔伽美什的召唤",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 从抽牌堆随机打出一张 *攻击牌 ，攻击同一目标。"
+  },
+  "granblueskies:CaOngCall": {
+    "NAME": "海翁的召唤",
+    "DESCRIPTION": "获得 1 点 力量 。本回合受到的伤害降低 !M!%。"
+  },
+  "granblueskies:OdinCall": {
+    "NAME": "奥丁的召唤",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 易伤 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 易伤 。 NL 若本回合已打出 !M! 张 攻击牌 ，重复一次。"
+  },
+  "granblueskies:PrayersOfTheMoon": {
+    "NAME": "祈月",
+    "DESCRIPTION": "granblueskies:星之羁绊 NL 随机将一张星晶兽卡加入手牌，本回合费用为 0。 NL 消耗",
+    "UPGRADE_DESCRIPTION": "granblueskies:星之羁绊 NL 随机将一张星晶兽卡加入手牌，本回合费用为 0。 NL 有 50% 的概率获得难以入手的牌。 NL 消耗"
+  },
+  "granblueskies:TiamatAuraOmega": {
+    "NAME": "提亚马特·岚飒的召唤",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 给予所有敌人 3 层 虚弱 。 NL 所有敌人失去 !M! 点 力量 。"
+  },
+  "granblueskies:ColossusIraOmega": {
+    "NAME": "科罗萨斯·烬怒的召唤",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 获得 !B! 点 格挡 。 NL 本回合受到的伤害降低 !M!%。"
+  },
+  "granblueskies:LeviathanMareOmega": {
+    "NAME": "利维坦·沧溟的召唤",
+    "DESCRIPTION": "移除所有敌人的 格挡 。 NL 对所有敌人造成 !D! 点伤害。 NL 给予所有敌人 !M! 层 易伤 。"
+  },
+  "granblueskies:YggdrasilArbosOmega": {
+    "NAME": "尤格多拉希尔·圣梣的召唤",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 随机执行下列一项，共 !M! 次： NL 获得 1 点 力量 ； NL 或获得 1 点 敏捷 。 NL 消耗"
+  },
+  "granblueskies:LuminieraCredoOmega": {
+    "NAME": "修瓦利耶·信辉的召唤",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL granblueskies:驱散 2 个 *增益 。"
+  },
+  "granblueskies:CelesteAterOmega": {
+    "NAME": "塞勒斯特·黯渊的召唤",
+    "DESCRIPTION": "移除目标的 格挡 。 NL 给予等同于移除量的 中毒 。",
+    "EXTENDED_DESCRIPTION": [
+      ""
+    ]
+  },
+  "granblueskies:ParadiseLostCard": {
+    "NAME": "失乐园",
+    "DESCRIPTION": "所有敌人失去 30 点生命。 NL 移除所有敌人的 *增益 。 NL 解除所有敌人的 *预兆 。"
+  },
+  "granblueskies:ChaosLegionCard": {
+    "NAME": "混沌军团",
+    "DESCRIPTION": "保留 。在手牌时激活 granblueskies:恍惚 。 NL 造成 !D! 点伤害。按 granblueskies:恍惚 层数追加： NL 1：granblueskies:驱散 3 个 *增益 ；｜2：目标失去 30 点生命；｜3：给予 !M! 层 易伤 。"
+  }
+}

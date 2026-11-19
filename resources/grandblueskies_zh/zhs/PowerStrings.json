@@ -1,0 +1,420 @@
+{
+  "granblueskies:PowerID": {
+    "NAME": "终极力量",
+    "DESCRIPTIONS": [
+      "你既酷炫又强大。"
+    ]
+  },
+  "granblueskies:RagnarokField": {
+    "NAME": "诸神黄昏领域",
+    "DESCRIPTIONS": [
+      "受到 ",
+      " 点伤害，于回合结束时结算。"
+    ]
+  },
+  "granblueskies:OverdriveState": {
+    "NAME": "狂暴（无法驱散）",
+    "DESCRIPTIONS": [
+      "该生物的攻击威力提升。再造成 ",
+      " 点伤害即可使其眩晕。",
+      " 点伤害即可使其眩晕。"
+    ]
+  },
+  "granblueskies:StandbyState": {
+    "NAME": "待机（无法驱散）",
+    "DESCRIPTIONS": [
+      "该生物正处于平静状态。再受到 ",
+      " 点伤害后，它将变得更具攻击性。",
+      " 点伤害后，它将变得更具攻击性。"
+    ]
+  },
+  "granblueskies:FieldOfMediation": {
+    "NAME": "调停领域",
+    "DESCRIPTIONS": [
+      "施加时，牌组每包含一种异于自身的卡牌颜色，便各获得 #b1 点 #y力量 、#y敏捷 和 #y集中 。"
+    ]
+  },
+  "granblueskies:WormholePower": {
+    "NAME": "虫洞（无法驱散）",
+    "DESCRIPTIONS": [
+      "该生物再受到 ",
+      " 点伤害后，将改变意图。"
+    ]
+  },
+  "granblueskies:EbbTidePower": {
+    "NAME": "退潮（无法驱散）",
+    "DESCRIPTIONS": [
+      "你打出一张能力牌时，该生物会改变意图。"
+    ]
+  },
+  "granblueskies:PathOfDestruction": {
+    "NAME": "毁灭之道",
+    "DESCRIPTIONS": [
+      "下一次攻击的威力将大幅提升。"
+    ]
+  },
+  "granblueskies:MirrorBlade5": {
+    "NAME": "镜刃",
+    "DESCRIPTIONS": [
+      "回合结束时，对玩家造成 #b5 点伤害。"
+    ]
+  },
+  "granblueskies:MirrorBlade2": {
+    "NAME": "镜刃",
+    "DESCRIPTIONS": [
+      "回合结束时，对玩家造成 #b2 点伤害。"
+    ]
+  },
+  "granblueskies:Marked": {
+    "NAME": "锁定",
+    "DESCRIPTIONS": [
+      "敌人正准备对被锁定的目标发动强力攻击。"
+    ]
+  },
+  "granblueskies:IncantedOmen": {
+    "NAME": "预兆",
+    "DESCRIPTIONS": [
+      "该敌人正在蓄势发动强力攻击。满足指定条件即可解除预兆。"
+    ]
+  },
+  "granblueskies:StanceOmen": {
+    "NAME": "预兆",
+    "DESCRIPTIONS": [
+      "该敌人会在特定条件下蓄势发动强力攻击。使其眩晕可阻止蓄势。"
+    ]
+  },
+  "granblueskies:BlueCrystalPower": {
+    "NAME": "蓝色水晶",
+    "DESCRIPTIONS": [
+      "下次获得 #y力量 、#y敏捷 、#y集中 或 #y真言 时，额外获得 1 点。"
+    ]
+  },
+  "granblueskies:DebuffOnHit": {
+    "NAME": "命中弱化（无法驱散）",
+    "DESCRIPTIONS": [
+      "该生物每次造成未被格挡的伤害时，施加 "
+    ]
+  },
+  "granblueskies:PiercingPower": {
+    "NAME": "穿透（无法驱散）",
+    "DESCRIPTIONS": [
+      "该生物攻击时，无视 #y格挡 和会改变攻击伤害的 #y能力 。"
+    ]
+  },
+  "granblueskies:ConjunctionPower": {
+    "NAME": "合相（无法驱散）",
+    "DESCRIPTIONS": [
+      "回合开始时，该生物的生命变为 1。"
+    ]
+  },
+  "granblueskies:CelesteEnmity": {
+    "NAME": "塞勒斯特的背水",
+    "DESCRIPTIONS": [
+      "每打出一张 #y攻击牌 ，对随机敌人造成 #b1 点伤害。生命低于 20%、低于 10%、恰好剩 #b1 点时，每满足一项，伤害额外增加 #b1 点。"
+    ]
+  },
+  "granblueskies:PhalanxPower": {
+    "NAME": "方阵",
+    "DESCRIPTIONS": [
+      "受到的可格挡伤害降低 #b",
+      "%，持续至下回合开始。"
+    ]
+  },
+  "granblueskies:IncantedOmenCardPlayed": {
+    "NAME": "咏唱 #y预兆",
+    "DESCRIPTIONS": [
+      "你打出卡牌后，该敌人的意图会改变。",
+      "该敌人的意图会在你打出 ",
+      " 后改变。"
+    ]
+  },
+  "granblueskies:CrippleDraw": {
+    "NAME": "受限：",
+    "DESCRIPTIONS": [
+      "本回合，每当你抽到一张 ",
+      " 牌，便将它丢弃",
+      "。",
+      "，再换成一张 "
+    ]
+  },
+  "granblueskies:IncantedOmenPowersApplied": {
+    "NAME": "咏唱 #y预兆",
+    "DESCRIPTIONS": [
+      "该敌人受到能力效果后，会改变意图。",
+      "该敌人受到 ",
+      " 后，会改变意图。"
+    ]
+  },
+  "granblueskies:IncantedOmenHits": {
+    "NAME": "咏唱 #y预兆",
+    "DESCRIPTIONS": [
+      "该敌人受到足够次数的攻击后，将改变意图。",
+      "该敌人将改变意图，条件是它"
+    ]
+  },
+  "granblueskies:IncantedOmenDamage": {
+    "NAME": "咏唱 #y预兆",
+    "DESCRIPTIONS": [
+      "该敌人受到足够伤害后，将改变意图。",
+      "该敌人将改变意图，条件是它"
+    ]
+  },
+  "granblueskies:JudgementTrumpet": {
+    "NAME": "裁决号角（无法驱散）",
+    "DESCRIPTIONS": [
+      "受到攻击时，获得 #b",
+      " 点 #y力量 （最多 #b4 点）。"
+    ]
+  },
+  "granblueskies:UnrighteousnessPower": {
+    "NAME": "不义",
+    "DESCRIPTIONS": [
+      "该生物被判有罪。本轮结束时，作为惩罚失去一半生命。"
+    ]
+  },
+  "granblueskies:LovesRedemption": {
+    "NAME": "爱的救赎",
+    "DESCRIPTIONS": [
+      "生命高于 50% 时，受到的 #y攻击 伤害减半。每轮结束减少 2 层，每打出一张牌减少 1 层。"
+    ]
+  },
+  "granblueskies:DoubleStrike": {
+    "NAME": "二连击",
+    "DESCRIPTIONS": [
+      "攻击牌会打出两次。"
+    ]
+  },
+  "granblueskies:ImpregnableFortress": {
+    "NAME": "不破要塞",
+    "DESCRIPTIONS": [
+      "你的生命不会低于 #b1 点。"
+    ]
+  },
+  "granblueskies:SentencedTrumpet": {
+    "NAME": "裁决",
+    "DESCRIPTIONS": [
+      "再过 ",
+      " 回合，",
+      " 回合，",
+      "消耗当回合最先抽到的 ",
+      " 张牌。",
+      "那张牌。"
+    ]
+  },
+  "granblueskies:ATKDown": {
+    "NAME": "攻击下降",
+    "DESCRIPTIONS": [
+      "该生物的 #y攻击 伤害降低 #b",
+      "%。"
+    ]
+  },
+  "granblueskies:DEFDown": {
+    "NAME": "防御下降",
+    "DESCRIPTIONS": [
+      "该生物受到的伤害增加 #b",
+      "%（仅限 #y攻击 ）。"
+    ]
+  },
+  "granblueskies:ThunderboltOfDisaster": {
+    "NAME": "灾厄之雷",
+    "DESCRIPTIONS": [
+      "每打出一张 #y攻击牌 ，若该 #y攻击 以一名敌人为目标，则对随机敌人造成 #b",
+      " 点伤害。若该 #y攻击 以所有敌人为目标，则对全体敌人造成 #b",
+      " 点伤害。"
+    ]
+  },
+  "granblueskies:MoonCrescent": {
+    "NAME": "新月",
+    "DESCRIPTIONS": [
+      "你的 #y攻击 额外造成 1 点伤害。你的回合结束时，额外伤害提升。"
+    ]
+  },
+  "granblueskies:MoonQuarter": {
+    "NAME": "弦月",
+    "DESCRIPTIONS": [
+      "你的 #y攻击 额外造成 2 点伤害。你的下回合开始时，额外伤害提升。"
+    ]
+  },
+  "granblueskies:MoonFull": {
+    "NAME": "满月",
+    "DESCRIPTIONS": [
+      "本轮你的 #y攻击 额外造成 3 点伤害。"
+    ]
+  },
+  "granblueskies:DEFUp": {
+    "NAME": "防御提升",
+    "DESCRIPTIONS": [
+      "该生物受到的伤害减少 #b",
+      " 点（仅限 #y攻击 ）。"
+    ]
+  },
+  "granblueskies:TheEmeraldsWindfallPower": {
+    "NAME": "翠之恩泽",
+    "DESCRIPTIONS": [
+      "本回合打出的第一张牌，会在回合结束时额外打出 #b",
+      " 次。"
+    ]
+  },
+  "granblueskies:TheGoldsFoundationPower": {
+    "NAME": "金之基石",
+    "DESCRIPTIONS": [
+      "若本回合未打出攻击牌，回合结束时获得 #b",
+      " 点 #y力量 。"
+    ]
+  },
+  "granblueskies:TheWhitesLightfieldPower": {
+    "NAME": "白之光域",
+    "DESCRIPTIONS": [
+      "你的回合结束时，获得 #b",
+      " 点 #y格挡 ，所有敌人各回复 1 点生命。"
+    ]
+  },
+  "granblueskies:TheBlacksEncroachmentPower": {
+    "NAME": "黑之侵蚀",
+    "DESCRIPTIONS": [
+      "受到的攻击伤害减少 #b",
+      " 点。 NL 你的回合结束时，失去 1 点生命。"
+    ]
+  },
+  "granblueskies:DeathSentencePower": {
+    "NAME": "死亡宣告",
+    "DESCRIPTIONS": [
+      "回合结束或有牌打出时，计数下降。降至 #b0 时，该生物死亡。"
+    ]
+  },
+  "granblueskies:DoomFirePower": {
+    "NAME": "末日之火",
+    "DESCRIPTIONS": [
+      "消耗 #b",
+      " 张抽牌堆顶的牌，在你的回合开始抽牌后结算。提高 #y瓦拉祖纳拉库 的 #y预兆 解除条件。 NL 解除 #y预兆 时减少 #b1 层。",
+      "层数至少为 1 时："
+    ]
+  },
+  "granblueskies:CASealedPower": {
+    "NAME": "稀有牌封印",
+    "DESCRIPTIONS": [
+      "接下来的 ",
+      " 回合，无法打出稀有牌。"
+    ]
+  },
+  "granblueskies:UnsealingPower": {
+    "NAME": "解封（最多 5 层）",
+    "DESCRIPTIONS": [
+      "每回合最多打出 #b",
+      " 张牌。解除 #y预兆 时减少 #b1 层。",
+      "层数至少为 1 时，限制每回合的出牌数量。解除 #y预兆 时减少 1 层。"
+    ]
+  },
+  "granblueskies:GoldenCorruptionPower": {
+    "NAME": "黄金侵蚀（最多 5 层）",
+    "DESCRIPTIONS": [
+      "造成的伤害减少 #b",
+      " 点。解除 #y预兆 时减少 #b1 层。"
+    ]
+  },
+  "granblueskies:GildedHeavenPower": {
+    "NAME": "鎏金庇护（最多 10 层）",
+    "DESCRIPTIONS": [
+      "每轮结束增加 #b3 层。该生物每次受到伤害时减少 #b1 层。未处于 #y预兆 中且层数降至 0 时，纳罗菲尔米达斯陷入眩晕。"
+    ]
+  },
+  "granblueskies:TorrentOfLifePower": {
+    "NAME": "生命奔流",
+    "DESCRIPTIONS": [
+      "尼胡伊文泰的「永恒之境」将直接击杀目标。解除 #y预兆 时移除此状态。"
+    ]
+  },
+  "granblueskies:UniversalUpwellingPower": {
+    "NAME": "万象涌动",
+    "DESCRIPTIONS": [
+      "回合结束时，将 #b1 层转为随机增益。解除 #y预兆 时减少 #b1 层，并移除该生物的 #b1 个增益。"
+    ]
+  },
+  "granblueskies:MechanizationPower": {
+    "NAME": "机械化（最多 5 层）",
+    "DESCRIPTIONS": [
+      "你每次受到的伤害增加 #b",
+      " 点。解除 #y预兆 时减少 1 层。"
+    ]
+  },
+  "granblueskies:ObservationPower": {
+    "NAME": "观察（最多 5 层）",
+    "DESCRIPTIONS": [
+      "回合开始时，将 #b",
+      " 张晕眩加入手牌。"
+    ]
+  },
+  "granblueskies:DerangedPower": {
+    "NAME": "错乱",
+    "DESCRIPTIONS": [
+      "本回合抽到牌时，随机改变其费用。",
+      "接下来的 ",
+      " 回合，抽到牌时随机改变其费用。"
+    ]
+  },
+  "granblueskies:DemonolatryPagesPower": {
+    "NAME": "魔典书页（最多 5 层，无法驱散）",
+    "DESCRIPTIONS": [
+      "每打出一张牌增加 #b1 层。回合结束或解除 #y预兆 时重置为 #b1 层。"
+    ]
+  },
+  "granblueskies:ColossalBodyPower": {
+    "NAME": "巨躯",
+    "DESCRIPTIONS": [
+      "受到以 #r所有生物 为目标的牌造成的伤害提高 #b100%。受到以 #y全体 敌人为目标的牌造成的伤害提高 #b50%。"
+    ]
+  },
+  "granblueskies:AkashaTimeWarpPower": {
+    "NAME": "时间扭曲（无法净化）",
+    "DESCRIPTIONS": [
+      "#y能力 和 #y遗物 的 #b回合 #b开始 #b效果 与 #b回合 #b结束 #b效果 额外触发 #b",
+      " 次（#y遗物 仅在你的回合触发）。",
+      " 次（#y遗物 仅在你的回合触发）。",
+      "#y能力 和 #y遗物 的 #b回合 #b开始 #b效果 与 #b回合 #b结束 #b效果 会额外触发多次。"
+    ]
+  },
+  "granblueskies:AkashaTimeWarpPowerBak": {
+    "NAME": "时间扭曲（无法净化）",
+    "DESCRIPTIONS": [
+      "你结束回合时，会额外经过 ",
+      " 个回合。",
+      " 个回合。",
+      "你结束回合时，可能额外经过若干回合。"
+    ]
+  },
+  "granblueskies:AkashaKarmaPower": {
+    "NAME": "因果",
+    "DESCRIPTIONS": [
+      "阿卡夏正准备发动强力攻击！打出 ",
+      " 张攻击牌即可阻止。",
+      " 张攻击牌即可阻止。"
+    ]
+  },
+  "granblueskies:TheWorldSpherePower": {
+    "NAME": "投影世界（无法驱散）",
+    "DESCRIPTIONS": [
+      "受到攻击时，反击造成 ",
+      " 点伤害。回合结束时，将 1 层转为力量。"
+    ]
+  },
+  "granblueskies:TheWorldTerminalPower": {
+    "NAME": "终末世界（无法驱散）",
+    "DESCRIPTIONS": [
+      "「梅比彗星」的攻击段数增加 #b",
+      "。 NL 解除 #y预兆 时减少 #b1 层。"
+    ]
+  },
+  "granblueskies:GbfDOTPower": {
+    "NAME": "衰败",
+    "DESCRIPTIONS": [
+      "该生物失去 #b",
+      " 点生命，于每回合结束时结算。"
+    ]
+  },
+  "granblueskies:TrancePower": {
+    "NAME": "恍惚（无法驱散，最多 3 层）",
+    "DESCRIPTIONS": [
+      "达到 #b3 层时，你的 #y攻击 额外造成 #b3 点伤害。"
+    ]
+  }
+}

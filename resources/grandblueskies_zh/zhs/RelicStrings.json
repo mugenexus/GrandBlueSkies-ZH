@@ -1,0 +1,785 @@
+{
+  "granblueskies:RelicID": {
+    "NAME": "示例遗物",
+    "FLAVOR": "遗物详情中显示的风味说明。",
+    "DESCRIPTIONS": [
+      "你的回合开始时获得 [E]。[E] 是能量图标。"
+    ]
+  },
+  "granblueskies:BlueCrystal": {
+    "NAME": "蓝色水晶",
+    "FLAVOR": "光照之下，晶体熠熠生辉。",
+    "DESCRIPTIONS": [
+      "每场战斗第一次获得 #y力量 、#y敏捷 、#y集中 或 #y真言 时，额外获得 #b1 点。"
+    ]
+  },
+  "granblueskies:BlueCrystalBelial": {
+    "NAME": "蓝色水晶",
+    "FLAVOR": "光照之下，晶体熠熠生辉。",
+    "DESCRIPTIONS": [
+      "战斗开始时，各获得 #b1 点力量、#b1 点敏捷和 #b1 点集中，并受到 #b3 层虚弱和易伤。"
+    ]
+  },
+  "granblueskies:BlueCrystalYatima": {
+    "NAME": "蓝色水晶",
+    "FLAVOR": "光照之下，晶体熠熠生辉。",
+    "DESCRIPTIONS": [
+      "每场战斗最初的 #b3 个回合内，每回合打出的第一张牌会打出两次。"
+    ]
+  },
+  "granblueskies:ShieldOfTenets": {
+    "NAME": "教义之盾",
+    "FLAVOR": "象征空之神力量的遗物。",
+    "DESCRIPTIONS": [
+      "每当一张 #y稀有 牌加入牌组时，#y升级 那张牌。"
+    ]
+  },
+  "granblueskies:SwordOfBahamut": {
+    "NAME": "巴哈姆特之剑",
+    "FLAVOR": "人们敬畏伟大之龙的利爪，将这份敬畏注入剑中。此刃足以剜出大地的核心，将它抛向天际。",
+    "DESCRIPTIONS": [
+      "战斗开始时，获得 #b1 点 #y力量 。"
+    ]
+  },
+  "granblueskies:SwordOfBahamutCoda": {
+    "NAME": "巴哈姆特之剑·终章",
+    "FLAVOR": "仿照伟大之龙的利爪铸成的究极之剑，令万物战栗。若以此剑斩开大地，整个世界都可能坠入苍空深处。",
+    "DESCRIPTIONS": [
+      "最大生命增加 #b4 点。战斗开始时，获得 #b2 点 #y力量 。"
+    ]
+  },
+  "granblueskies:DaggerOfBahamut": {
+    "NAME": "巴哈姆特短剑",
+    "FLAVOR": "匠人将对伟大之龙獠牙的敬畏凝入短剑。此刃可割断命运之线，将受刃者的存在一并抹除。",
+    "DESCRIPTIONS": [
+      "战斗开始时，获得 #b1 点 #y敏捷 。"
+    ]
+  },
+  "granblueskies:DaggerOfBahamutCoda": {
+    "NAME": "巴哈姆特短剑·终章",
+    "FLAVOR": "为纪念伟大之龙的獠牙而铸。一击便可撕开命运的织锦，令对手连曾经存在的痕迹也不复留下。",
+    "DESCRIPTIONS": [
+      "最大生命增加 #b4 点。战斗开始时，获得 #b2 点 #y敏捷 。"
+    ]
+  },
+  "granblueskies:StaffOfBahamut": {
+    "NAME": "巴哈姆特法杖",
+    "FLAVOR": "法杖承载着人们对龙之睿智的敬畏，轻易便能召来凡人无从理解的绝望。",
+    "DESCRIPTIONS": [
+      "战斗开始时，获得 #b1 点 #y集中 。"
+    ]
+  },
+  "granblueskies:StaffOfBahamutCoda": {
+    "NAME": "巴哈姆特法杖·终章",
+    "FLAVOR": "仿照伟大之龙的无上睿智铸造。远超人智的智慧自行流转，将永恒与真理尽数包纳。",
+    "DESCRIPTIONS": [
+      "最大生命增加 #b4 点。战斗开始时，获得 #b2 点 #y集中 。"
+    ]
+  },
+  "granblueskies:HarpOfBahamut": {
+    "NAME": "巴哈姆特竖琴",
+    "FLAVOR": "琴身凝聚着人们对龙之黑翼的惊惧。毁灭的音符能令人发狂，使全空陷入混乱。",
+    "DESCRIPTIONS": [
+      "战斗开始时，将一张 #y奇迹 加入手牌。"
+    ]
+  },
+  "granblueskies:HarpOfBahamutCoda": {
+    "NAME": "巴哈姆特竖琴·终章",
+    "FLAVOR": "竖琴依究极之龙双翼的形状制成。拨弦便能使听者陷入疯狂，唤来毁天灭地的龙卷。",
+    "DESCRIPTIONS": [
+      "最大生命增加 #b4 点。战斗开始时，将一张 #y奇迹+ 加入手牌。"
+    ]
+  },
+  "granblueskies:ShieldOfLamentation": {
+    "NAME": "哀叹之盾",
+    "FLAVOR": "盾牌的主人是一位自高处降临的骑士，立志使失序的世界重归正轨。",
+    "DESCRIPTIONS": [
+      "每打出一张 #y攻击牌 ，所有敌人额外失去 ",
+      " 点生命。 NL 每 10 级进阶再增加 1 点。"
+    ]
+  },
+  "granblueskies:CosmicSword": {
+    "NAME": "宇宙之剑",
+    "FLAVOR": "执掌混沌的均衡之剑。红眸少女以苍空之愿编织受缚之龙的力量，使其凝为实形。晨光破晓，将秩序带回纷乱的世界。",
+    "DESCRIPTIONS": [
+      "同一回合打出 #y能力牌 、#y攻击牌 和 #y技能牌 后，本回合余下时间，你的 #y攻击 伤害翻倍。"
+    ]
+  },
+  "granblueskies:AzureFeather": {
+    "NAME": "苍蓝之羽",
+    "FLAVOR": "一根深蓝色的羽毛。",
+    "DESCRIPTIONS": [
+      "每场战斗最初的 #b3 个回合内，每回合打出的第一张 #y攻击牌 为你 #g回复 ",
+      " 点生命。"
+    ]
+  },
+  "granblueskies:CrystalRose": {
+    "NAME": "水晶玫瑰",
+    "FLAVOR": "玫瑰状的晶体色泽殷红，明艳夺目。",
+    "DESCRIPTIONS": [
+      "每打出一张星晶兽卡，获得 #b4 点格挡。"
+    ]
+  },
+  "granblueskies:LoveEternal": {
+    "NAME": "永恒之爱",
+    "FLAVOR": "精雕细琢的剑身饰有玫瑰，剑锋流露神秘光泽，仿佛诞生于时间开始以前，曾为久远的世界所用。",
+    "DESCRIPTIONS": [
+      "你的回合开始时，将一张 #y小刀 加入手牌。你每有 1 点 #y敏捷 或 #y集中 ，这张小刀的伤害便增加 1 点。"
+    ]
+  },
+  "granblueskies:VerdantAzurite": {
+    "NAME": "翠绿蓝铜晶",
+    "FLAVOR": "能引出调停之力的结晶。",
+    "DESCRIPTIONS": [
+      "#y升级 牌组中稀有度最高的 #b2 张牌。"
+    ]
+  },
+  "granblueskies:RoseShield": {
+    "NAME": "玫瑰之盾",
+    "FLAVOR": "蔷薇女王的遗物。见过那绯红玫瑰的人无不为之着迷，敢向她开战的人则被藤蔓和花瓣掩埋。",
+    "DESCRIPTIONS": [
+      "每当你将失去生命时，少失去 #b1 点。"
+    ]
+  },
+  "granblueskies:CelesteClawOmega": {
+    "NAME": "塞勒斯特之爪",
+    "FLAVOR": "三道寒芒无声划破长夜，为枯萎的花染上一层新暗色。",
+    "DESCRIPTIONS": [
+      "生命低于 #b50% 时，每打出一张 #y攻击牌 ，对随机敌人造成 #b1 点伤害。#b（生命 #b越 #b低，#b造成 #b的 #b伤害越高。）"
+    ]
+  },
+  "granblueskies:ColossusFistOmega": {
+    "NAME": "科罗萨斯之拳",
+    "FLAVOR": "无声的嘶吼锐利得足以撕开钢铁，灼热随之裹住双拳。",
+    "DESCRIPTIONS": [
+      "每场战斗的第一个回合内，每次受到攻击时，反击造成 #b6 点伤害。"
+    ]
+  },
+  "granblueskies:LeviathanScepterOmega": {
+    "NAME": "利维坦权杖",
+    "FLAVOR": "只需一挥，便可唤起权杖御海之力。",
+    "DESCRIPTIONS": [
+      "每场战斗第一次 #g回复 生命时，额外 #g回复 #b2 点。"
+    ]
+  },
+  "granblueskies:LuminieraSwordOmega": {
+    "NAME": "修瓦利耶之剑",
+    "FLAVOR": "为守护誓约与尊严，骑士拔出永不失去光泽的剑。即使面对寻常盗匪，也愿以性命相搏。",
+    "DESCRIPTIONS": [
+      "获得时，最大生命增加 #b2 点。每场战斗第一次 #y攻击 额外造成 #b2 点伤害。"
+    ]
+  },
+  "granblueskies:TiamatGlaiveOmega": {
+    "NAME": "提亚马特长刃",
+    "FLAVOR": "狂风凝为刀刃。",
+    "DESCRIPTIONS": [
+      "战斗开始时，获得 #b2 点 #y临时 #y敏捷 。"
+    ]
+  },
+  "granblueskies:YggdrasilBowOmega": {
+    "NAME": "尤格多拉希尔之弓",
+    "FLAVOR": "弓矢为巨树寻觅祭品。血雨之中，巨树依旧静静开花。",
+    "DESCRIPTIONS": [
+      "生命全满时，获得 #b1 点 #y力量 。"
+    ]
+  },
+  "granblueskies:TyrosZither": {
+    "NAME": "泰罗斯琴",
+    "FLAVOR": "曾有一位身披暮色微光的优雅少女，以此琴嘉奖骑空士的勇武。",
+    "DESCRIPTIONS": [
+      "每场战斗第一次打出 #y稀有 牌时，抽 #b1 张牌。"
+    ]
+  },
+  "granblueskies:TridentOfBrahman": {
+    "NAME": "梵天三叉戟",
+    "FLAVOR": "此戟只需一刺，便可捅穿天空。",
+    "DESCRIPTIONS": [
+      "每场战斗打出的第一张 #y攻击牌 会打出两次。"
+    ]
+  },
+  "granblueskies:LastStormBlade": {
+    "NAME": "最终风暴之刃",
+    "FLAVOR": "刃锋卷起狂风，斩开敌阵，直至战场归于寂静。",
+    "DESCRIPTIONS": [
+      "本场战斗打出第三张 #y攻击牌 后，获得 #b1 点 #y能量 。"
+    ]
+  },
+  "granblueskies:NibelungKlinge": {
+    "NAME": "尼伯龙根之刀",
+    "FLAVOR": "守护者的庇护化为宝刀，为邪恶降下裁决。",
+    "DESCRIPTIONS": [
+      "有 #b5% 概率闪避攻击，并反击造成 #b6 点伤害。"
+    ]
+  },
+  "granblueskies:AnimaCeleste": {
+    "NAME": "与塞勒斯特的契约",
+    "FLAVOR": "幽灵船塞勒斯特踏着灾厄之浪航行。它身后留下秽雾，吸入者将永为奴仆。",
+    "DESCRIPTIONS": [
+      "获得时，将 #y塞勒斯特 #y的召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:AnimaColossus": {
+    "NAME": "与科罗萨斯的契约",
+    "FLAVOR": "科罗萨斯魁梧的甲胄如同不灭的复仇化身。驱使它的是渴望还是愤怒，世人只能猜度。",
+    "DESCRIPTIONS": [
+      "获得时，将 #y科罗萨斯 #y的召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:AnimaLeviathan": {
+    "NAME": "与利维坦的契约",
+    "FLAVOR": "群岛之水的化身终于重归平静。它惟愿这片澄澈的蓝水永不再遭惊扰。",
+    "DESCRIPTIONS": [
+      "获得时，将 #y利维坦 #y的召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:AnimaLuminiera": {
+    "NAME": "与修瓦利耶的契约",
+    "FLAVOR": "骑士形态的星晶兽由指挥者的生命力化成。它的伟力既可护佑主人，也能化剑歼敌。",
+    "DESCRIPTIONS": [
+      "获得时，将 #y修瓦利耶 #y的召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:AnimaTiamat": {
+    "NAME": "与提亚马特的契约",
+    "FLAVOR": "提亚马特安静地守望万物。愿那足以撕裂苍空的风永不复起。",
+    "DESCRIPTIONS": [
+      "获得时，将 #y提亚马特 #y的召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:AnimaYggdrasil": {
+    "NAME": "与尤格多拉希尔的契约",
+    "FLAVOR": "草木之母将力量交给骑空士，愿无声者的苦痛有朝一日从世间消失。",
+    "DESCRIPTIONS": [
+      "获得时，将 #y尤格多拉希尔 #y的召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:AnimaAlexiel": {
+    "NAME": "与布洛蒂亚的契约",
+    "FLAVOR": "神域的守护者以能映照万物的镜刃之壁为屏障，以镜鳞之龙为护卫，拒绝一切邪恶越界。",
+    "DESCRIPTIONS": [
+      "获得时，将 #y布洛蒂亚 #y的召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:AnimaEuropa": {
+    "NAME": "与欧罗巴的契约",
+    "FLAVOR": "传说她的美令众神赐予永生。自太古以来，苍天为她倾倒，此后亦将如此。",
+    "DESCRIPTIONS": [
+      "获得时，将 #y欧罗巴 #y的召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:AnimaGrimnir": {
+    "NAME": "与格里姆尼尔的契约",
+    "FLAVOR": "战神乘狂飙而来。即使风暴已为他赢下百战，他仍执意追逐更强的力量。",
+    "DESCRIPTIONS": [
+      "获得时，将 #y格里姆尼尔 #y的召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:AnimaShiva": {
+    "NAME": "与湿婆的契约",
+    "FLAVOR": "万物无常。刚烈的破坏之神以超然之眼俯视不断变迁的世界。",
+    "DESCRIPTIONS": [
+      "获得时，将 #y湿婆 #y的召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:AnimaAthena": {
+    "NAME": "与雅典娜的契约",
+    "FLAVOR": "雅典娜赐信徒庇护和智慧，却会以燃烧的枪锋严惩仇敌。",
+    "DESCRIPTIONS": [
+      "获得时，将 #y雅典娜 #y的召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:AnimaGrani": {
+    "NAME": "与格拉尼的契约",
+    "FLAVOR": "神驹载着英雄格拉尼驰入战场。二人合击，转瞬便能扭转战局。",
+    "DESCRIPTIONS": [
+      "获得时，将 #y格拉尼 #y的召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:AnimaBaal": {
+    "NAME": "与巴尔的契约",
+    "FLAVOR": "雷震长空，电贯大地。全空皆畏惧巴尔之怒，他所经之地，风暴肆虐。",
+    "DESCRIPTIONS": [
+      "获得时，将 #y巴尔 #y的召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:AnimaGaruda": {
+    "NAME": "与迦楼罗的契约",
+    "FLAVOR": "迦楼罗是勇气的年轻化身，仅凭一指便可驾驭风暴。",
+    "DESCRIPTIONS": [
+      "获得时，将 #y迦楼罗 #y的召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:AnimaOdin": {
+    "NAME": "与奥丁的契约",
+    "FLAVOR": "唯有洞悉最后一道真理，方能填满奥丁对智慧的渴求。",
+    "DESCRIPTIONS": [
+      "获得时，将 #y奥丁 #y的召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:AnimaLich": {
+    "NAME": "与巫妖的契约",
+    "FLAVOR": "复仇的尸王以刺骨尖啸发动攻势，众生终将在不可逃避的恐惧中向它俯首。",
+    "DESCRIPTIONS": [
+      "获得时，将 #y巫妖 #y的召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:SwordOfPallas": {
+    "NAME": "帕拉斯之剑",
+    "FLAVOR": "剑自择主。它赐勇气给配得上它的人，以炽烈的惩罚拒绝其余人。",
+    "DESCRIPTIONS": [
+      "每当你将失去超过当前生命一半的生命时，少失去 #b2 点。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:BowOfSigurd": {
+    "NAME": "西格鲁德之弓",
+    "FLAVOR": "这张华美的弓射出的箭如闪电掠过天空，沿持弓者心中描绘的弧线飞驰。",
+    "DESCRIPTIONS": [
+      "你的第二个回合开始时，获得 #b2 点 #y临时 #y力量 。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:SolomonAxe": {
+    "NAME": "所罗门之斧",
+    "FLAVOR": "雷声赋予这柄武器力量。震耳的轰鸣会唤来足以压倒一切的神罚雷霆。",
+    "DESCRIPTIONS": [
+      "单次造成至少 15 点伤害时，给予目标 #y易伤 。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:PlumeOfSuparna": {
+    "NAME": "苏帕尔纳之羽",
+    "FLAVOR": "短剑映着黄昏的橙光，其中凝聚着纯粹的勇气。",
+    "DESCRIPTIONS": [
+      "每场战斗打出第三张能力牌后，回复 #b1 点生命。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:Gungnir": {
+    "NAME": "冈格尼尔",
+    "FLAVOR": "最睿智的众神合力将力量与智慧赋予此枪，从此它弹无虚发。",
+    "DESCRIPTIONS": [
+      "获得时，将 #y奥丁 #y的召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:Obscuritas": {
+    "NAME": "奥布斯库里塔斯",
+    "FLAVOR": "法杖诞生于大地边陲的幽暗旋涡，那里聚集着悲恸与怨恨。",
+    "DESCRIPTIONS": [
+      "获得时，将 #y巫妖 #y的召唤 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:DamascusIngot": {
+    "NAME": "大马士革锭",
+    "FLAVOR": "这块难得的金属散发着神秘的力量。",
+    "DESCRIPTIONS": [
+      "获得时，升级牌组中除基础 #y打击 和 #y防御 以外的所有牌。",
+      "追加打击",
+      "跳过奖励",
+      "获得时，升级所有 #y初始 #y打击 ，并从牌组移除所有 #y初始 #y防御 。"
+    ]
+  },
+  "granblueskies:LegendaryMerit": {
+    "NAME": "传奇功勋",
+    "FLAVOR": "献给位居顶点的骑空士的荣誉。",
+    "DESCRIPTIONS": [
+      "获得时，移除牌组中除 #y打击 和 #y防御 以外的所有牌。 NL #y升级 之后获得的前 #b",
+      " 张牌。",
+      " 张牌。",
+      "追加打击",
+      "跳过奖励",
+      "获得时，移除牌组中除 #y打击 和 #y防御 以外的所有牌。 NL #y升级 之后获得的等量卡牌（#b至少 #b1 张）。"
+    ]
+  },
+  "granblueskies:ConstellationRelic": {
+    "NAME": "星座的记忆",
+    "FLAVOR": "久远以前，星之民曾入侵诸空域。战后，他们被抹去于史册之外，只留下谜团。",
+    "DESCRIPTIONS": [
+      "每获得一张星晶兽卡，下场战斗开局获得 [E] 。每场战斗重置。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:ProvidenceGlobe": {
+    "NAME": "天命之球",
+    "FLAVOR": "一扇窥见宇宙法则的窗，借此可以驾驭神明的力量。",
+    "DESCRIPTIONS": [
+      "每获得一张星晶兽卡，#y升级 那张牌。"
+    ]
+  },
+  "granblueskies:PlusMarkBlue": {
+    "NAME": "未知潜能",
+    "FLAVOR": "凝望苍空时，心中的渴望仍在增长。",
+    "DESCRIPTIONS": [
+      "进入 #y第二 #y幕 #y阿卡姆 时，若尚未开启 #y首领 #y宝箱 ，额外获得一件遗物。"
+    ]
+  },
+  "granblueskies:OppressusFragorRelic": {
+    "NAME": "六色之楔",
+    "FLAVOR": "火、水、土、风、光、暗，六根巨楔支撑着动荡而扭曲的空之世界。",
+    "DESCRIPTIONS": [
+      "每当你打出一张牌，#y升级 它，持续至本场战斗结束。",
+      "将 #y苍 #y空 #y之 #y楔 加入牌组。每战胜一位六龙（第二幕精英），便强化它。若 #y苍 #y空 #y之 #y楔 已升级且拥有六种色彩，再升级一次。"
+    ]
+  },
+  "granblueskies:BestLivesTogetherRelic": {
+    "NAME": "奥罗洛贾亚的祝福",
+    "FLAVOR": "“我一遍遍重来。再重来。独自一人。”",
+    "DESCRIPTIONS": [
+      "第一次受到会使生命降到 1 点或以下的伤害时： NL 1. 在结算伤害前回满生命。 NL 2. 移除身上所有减益。 NL 3. 本局余下时间，你的回合开始时额外获得 #b1 点 #y能量 。"
+    ]
+  },
+  "granblueskies:MimicChestMino": {
+    "NAME": "宝箱怪米诺",
+    "FLAVOR": "贪心的生物，最爱搜罗财宝。",
+    "DESCRIPTIONS": [
+      "每场战斗额外获得 #b",
+      " #y金币 和 #b1 次卡牌奖励。 NL 自上次战斗获胜以来，每有一张牌加入牌组，你的回合开始时便额外获得 #b1 点 #y能量 。"
+    ]
+  },
+  "granblueskies:TranscendentBlue": {
+    "NAME": "渴望苍蓝",
+    "FLAVOR": "因果之龙司掌时间流向，在无人知晓的地方始终守望苍穹。",
+    "DESCRIPTIONS": [
+      "每场战斗的第一个回合获得 #b2 点 #y能量 ，并额外抽 #b2 张牌。"
+    ]
+  },
+  "granblueskies:FirestormScythe": {
+    "NAME": "炎风之镰",
+    "FLAVOR": "朱红羽翼卷起坚韧的火焰，既能焚尽万物，也能播下文明的种子。",
+    "DESCRIPTIONS": [
+      "你的 #y稀有 #y攻击牌 额外造成 ",
+      " 点伤害。"
+    ]
+  },
+  "granblueskies:CalamitousAquashade": {
+    "NAME": "灾涡之水伞",
+    "FLAVOR": "看似无害的伞藏着超乎常理的毒，轻轻一触便会麻痹感官。",
+    "DESCRIPTIONS": [
+      "战斗开始时，各获得 #b1 点 #y力量 、#b1 点 #y敏捷 和 #b1 点 #y能量 ，每有 ",
+      " 点 #y最大 #y生命 触发一次。"
+    ]
+  },
+  "granblueskies:LandslideScepter": {
+    "NAME": "崩山权杖",
+    "FLAVOR": "直视此杖，仿佛置身万丈悬崖之下，踏入凡人不该涉足的领域。",
+    "DESCRIPTIONS": [
+      "若牌组中有 ",
+      " 张同名牌，战斗开始时获得 #b1 点 #y力量 、#b1 点 #y敏捷 和 #b1 点 #y能量 。"
+    ]
+  },
+  "granblueskies:PiercingGalewing": {
+    "NAME": "劫风之翼锐",
+    "FLAVOR": "一刃挥出，召来与原初风暴同样异质的疾风，将所有挡路之物绞碎。",
+    "DESCRIPTIONS": [
+      "你造成的 #ygranblueskies:魔法伤害 增加 #b",
+      " 点。"
+    ]
+  },
+  "granblueskies:ImperiousFury": {
+    "NAME": "威权之怒",
+    "FLAVOR": "不染尘垢的白光迸发出万千颜色，最终归于无形。",
+    "DESCRIPTIONS": [
+      "你的回合结束时，对所有敌人造成 #b1 点伤害，并获得 #b1 点 #y格挡 ，牌组每有 ",
+      " 张牌便触发一次。"
+    ]
+  },
+  "granblueskies:SkeletalEclipse": {
+    "NAME": "晓暗与葬送之蚀",
+    "FLAVOR": "被此枪蛊惑的人，意识会一点点被抽离，直到迎来死亡。",
+    "DESCRIPTIONS": [
+      "每打出一张 #y攻击牌 ，对所有敌人造成等同于其费用的伤害。"
+    ]
+  },
+  "granblueskies:ArcarumJudgementReversed": {
+    "NAME": "审判·逆位",
+    "FLAVOR": "象征命运的存在化为凯旋的合唱，宣告公正而迅捷的裁决即将到来。",
+    "DESCRIPTIONS": [
+      "你的回合开始时： NL 若没有减益，额外抽 #b1 张牌。 NL 若有减益，获得 #b1 点临时 #y力量 。"
+    ]
+  },
+  "granblueskies:ArcarumJusticeReversed": {
+    "NAME": "正义·逆位",
+    "FLAVOR": "象征命运的存在是手执利剑的活天平，一步不退地守护自己的誓言。",
+    "DESCRIPTIONS": [
+      "每打出一张费用为偶数的 #y攻击牌 ，对目标造成 #b",
+      " 点伤害，并给予 #b",
+      " 层 #y虚弱 。 NL ",
+      "#b（没有 #b指定 #b目标 #b时，#b改为 #b作用 #b于 #b随机 #b敌人。）"
+    ]
+  },
+  "granblueskies:ArcarumHangedManReversed": {
+    "NAME": "倒吊人·逆位",
+    "FLAVOR": "象征命运的存在是个因过犯而受罚的人，脚踝被缚，被倒吊于半空。",
+    "DESCRIPTIONS": [
+      "若牌组中每张牌的名称都不同（#b不 #b计 #b初始 #b卡牌 ），战斗开始时获得 #b1 点 #y力量 和 #b1 点 #y敏捷 。"
+    ]
+  },
+  "granblueskies:ArcarumDeathReversed": {
+    "NAME": "死神·逆位",
+    "FLAVOR": "象征命运的存在化为死之使者，挥舞镰刀时，身姿如舞。",
+    "DESCRIPTIONS": [
+      "战斗开始时，获得 #b13 层 #ygranblueskies:爱的救赎 。"
+    ]
+  },
+  "granblueskies:ArcarumTemperanceReversed": {
+    "NAME": "节制·逆位",
+    "FLAVOR": "象征命运的存在凭一双流转的杯盏，使克制与审慎得以长存。",
+    "DESCRIPTIONS": [
+      "若本回合未打出任何 #y攻击牌 ，下回合获得 #b",
+      " 点临时 #y力量 。"
+    ]
+  },
+  "granblueskies:ArcarumDevilReversed": {
+    "NAME": "恶魔·逆位",
+    "FLAVOR": "象征命运的存在化为诱人的恶魔，利爪伸向被它引诱而走近的无辜者。",
+    "DESCRIPTIONS": [
+      "带有 #y易伤 的敌人对你造成的 #y攻击 伤害减少 #b1 点。你对带有 #y虚弱 的敌人造成的 #y攻击 伤害增加 #b1 点。"
+    ]
+  },
+  "granblueskies:ArcarumTowerReversed": {
+    "NAME": "塔·逆位",
+    "FLAVOR": "象征命运的存在化为灾厄要塞，浮上天空，预示危机将至。",
+    "DESCRIPTIONS": [
+      "每逢第三个回合开始时，对所有敌人造成 #b",
+      " 点伤害。"
+    ]
+  },
+  "granblueskies:ArcarumStarsReversed": {
+    "NAME": "星·逆位",
+    "FLAVOR": "象征命运的存在化为闪耀的希望，执掌足可匹敌群星的火花。",
+    "DESCRIPTIONS": [
+      "单次受击最多失去 #b",
+      " 点生命。"
+    ]
+  },
+  "granblueskies:ArcarumMoonReversed": {
+    "NAME": "月·逆位",
+    "FLAVOR": "象征命运的存在化为妖异的月下武者，将人心最深处的妄念一并照亮。",
+    "DESCRIPTIONS": [
+      "每回合你的 #y攻击 伤害再提高 #b",
+      "%。"
+    ]
+  },
+  "granblueskies:ArcarumSunReversed": {
+    "NAME": "太阳·逆位",
+    "FLAVOR": "象征命运的存在是吉兆之球，喷涌的光环散发出耀眼的光芒。",
+    "DESCRIPTIONS": [
+      "每当抽牌使手牌达到 #b10 张时，你的下一张 #y攻击牌 费用为 0。"
+    ]
+  },
+  "granblueskies:PhasesOfTheMoon": {
+    "NAME": "月相",
+    "FLAVOR": "夜空的明盘洒落清光，却仍映出太阳的腐化。",
+    "DESCRIPTIONS": [
+      "记录月相变化。"
+    ]
+  },
+  "granblueskies:HollowKeyRelic": {
+    "NAME": "空洞之钥",
+    "FLAVOR": "一把神秘的钥匙，据说既能干预过去，也能改变未来。",
+    "DESCRIPTIONS": [
+      "每场战斗第一次在未打出任何牌的情况下结束回合时，获得一个额外回合。"
+    ]
+  },
+  "granblueskies:EnigmaticArmillaRelic": {
+    "NAME": "谜之臂环",
+    "FLAVOR": "能转化遗物力量的装置，运作原理和力量来源仍是谜团。",
+    "DESCRIPTIONS": [
+      "获得与你已拥有的 #y星晶兽 遗物对应的卡牌。"
+    ]
+  },
+  "granblueskies:WorldideanRelic": {
+    "NAME": "与世界的契约",
+    "FLAVOR": "啊，理想的世界何其遥远。",
+    "DESCRIPTIONS": [
+      "获得时，将 #y胎动的 #y世界 加入牌组。",
+      "契约已缔结",
+      "跳过奖励"
+    ]
+  },
+  "granblueskies:TheWorldCard": {
+    "NAME": "世界·正位",
+    "FLAVOR": "因果与命运的二十二个象征之一。神性受到挑战，反抗的余烬再次燃起。",
+    "DESCRIPTIONS": [
+      "根据当前角色，从五件世界竖琴遗物中获得一件。",
+      " NL 当前角色：",
+      " NL 你将获得：",
+      "创世之摩罗斯",
+      "灼世之莱昂",
+      "啸世之埃托斯",
+      "破世之陶罗斯",
+      "扰世之安格洛斯"
+    ]
+  },
+  "granblueskies:WorldforgingMorosRelic": {
+    "NAME": "创世之摩罗斯",
+    "FLAVOR": "当旧世界被判不再值得存续，新世界的一片碎屑就此诞生。",
+    "DESCRIPTIONS": [
+      "你的 #y稀有 #y攻击牌 伤害提高 #b20%。每次获得 #y格挡 时，多获得 #b10%（至少 #b1 点）。"
+    ]
+  },
+  "granblueskies:WorldscathingLeonRelic": {
+    "NAME": "灼世之莱昂",
+    "FLAVOR": "四象之狮是支撑世界的支柱。它唤来灼热烈焰，迎接新秩序。",
+    "DESCRIPTIONS": [
+      "你的 #y攻击 伤害提高 #b15%。每次获得 #y格挡 时，多获得 #b10%（至少 1 点）。"
+    ]
+  },
+  "granblueskies:WorldstormingAetosRelic": {
+    "NAME": "啸世之埃托斯",
+    "FLAVOR": "四象之鹰是支撑世界的支柱。它召来滔天巨浪，迎接新秩序。",
+    "DESCRIPTIONS": [
+      "你将造成的伤害增加 #b1 点。每次获得 #y格挡 时，多获得 #b10%（至少 #b1 点）。"
+    ]
+  },
+  "granblueskies:WorldbreakingTaurosRelic": {
+    "NAME": "破世之陶罗斯",
+    "FLAVOR": "四象之牛是支撑世界的支柱。它以巨蹄震动大地，迎接新秩序。",
+    "DESCRIPTIONS": [
+      "你的回合结束时，#y充能球 同时触发 #y被动 和 #y激发 效果（#b不会 #b移除充能球 ）。每次获得 #y格挡 时，多获得 #b10%（至少 1 点）。"
+    ]
+  },
+  "granblueskies:WorldvexingAngelosRelic": {
+    "NAME": "扰世之安格洛斯",
+    "FLAVOR": "四象之无面者是支撑世界的支柱。它扇动莹白双翼，迎接新秩序。",
+    "DESCRIPTIONS": [
+      "处于 #y平静 #y姿态 时，你造成和受到的攻击伤害翻倍。脱离 #y愤怒 #y姿态 时，获得 #b2 点 #y能量 。每次获得 #y格挡 时，多获得 #b10%（至少 1 点）。"
+    ]
+  },
+  "granblueskies:OdiousDemonspear": {
+    "NAME": "魔枪",
+    "FLAVOR": "不祥的三■戟中，不智化作狂热，燃■不息。",
+    "DESCRIPTIONS": [
+      "你的攻击伤害提高 #b",
+      "%。",
+      " 每当你失去生命时，额外失去 #b",
+      " 点。在 #y休息 #y处 驱邪可移除此惩罚。"
+    ]
+  },
+  "granblueskies:OdiousTerrorbow": {
+    "NAME": "恐惧弓",
+    "FLAVOR": "一滴■美化为箭矢坠下，将此恩泽渗■整个世界。",
+    "DESCRIPTIONS": [
+      "每次获得格挡时，多获得 #b",
+      " 点。生命低于 #b50% 时，此额外格挡翻倍。",
+      " 你的能力牌费用增加 #b",
+      " 点。在 #y休息 #y处 驱邪可移除此惩罚。"
+    ]
+  },
+  "granblueskies:OdiousSealhammer": {
+    "NAME": "封印锤",
+    "FLAVOR": "裂开的石碑中，残■着自我赞颂的无情狂喜。",
+    "DESCRIPTIONS": [
+      "费用不超过 1 的攻击牌额外造成 #b",
+      " 点伤害。",
+      " 你的零费攻击牌费用增加 1 点。在 #y休息 #y处 驱邪可移除此惩罚。"
+    ]
+  },
+  "granblueskies:OdiousDemonedge": {
+    "NAME": "魔刃",
+    "FLAVOR": "剥■真相的锋刃闪耀着腐化之光，披覆华美的污■。",
+    "DESCRIPTIONS": [
+      "你的回合开始时，抽 #b",
+      " 张牌。",
+      " 你的回合开始时，失去 ",
+      " 点能量。在 #y休息 #y处 驱邪可移除此惩罚。"
+    ]
+  },
+  "granblueskies:OdiousBlightrifle": {
+    "NAME": "灾厄步枪",
+    "FLAVOR": "于■暗中射■的子弹化作光■，为我们指引方■。",
+    "DESCRIPTIONS": [
+      "战斗开始时，获得 #b",
+      " 点力量和集中，失去 #b",
+      " 点敏捷。在 #y休息 #y处 驱邪，可将失去敏捷改为获得敏捷。",
+      " 点力量、集中和敏捷。"
+    ]
+  },
+  "granblueskies:OdiousCodex": {
+    "NAME": "禁忌圣典",
+    "FLAVOR": "为圣■所惑者终将迷失自■。",
+    "DESCRIPTIONS": [
+      "生命比例越 #y低 ，你的攻击伤害越高（最高 #b",
+      "%，剩 #b1 点生命时达到）。在 #y休息 #y处 驱邪，可由越 #y低 改为越 #y高 。",
+      "生命比例越 #y高 ，你的攻击伤害越高（最高 #b",
+      "%，生命 #b100% 时达到）。在 #y休息 #y处 驱邪，可由越 #y高 改为越 #y低 。"
+    ]
+  },
+  "granblueskies:ScalesOfDominionRelic": {
+    "NAME": "统御天平",
+    "FLAVOR": "繁荣还是贫瘠？秩序还是混乱？阴还是阳？生还是死？",
+    "DESCRIPTIONS": [
+      "战斗开始时，若牌组里所有 #y非初始 牌均不重名，获得 #b",
+      " 点力量。"
+    ]
+  },
+  "granblueskies:StarsTreadsRelic": {
+    "NAME": "星之步履",
+    "FLAVOR": "撕开晦暗的路径，奔赴远方的战事。",
+    "DESCRIPTIONS": [
+      "每当你失去生命时，获得 #b1 层 #y荆棘 。"
+    ]
+  },
+  "granblueskies:RubeaStiriaRelic": {
+    "NAME": "鲁贝亚·斯蒂利亚",
+    "FLAVOR": "……极有可能反复启动。",
+    "DESCRIPTIONS": [
+      "在 #y能量 为 0 时打出 X 费牌，获得 #b1 点 #y能量 。"
+    ]
+  },
+  "granblueskies:MeteorsLight": {
+    "NAME": "流星之光",
+    "FLAVOR": "用一种来历不明的矿石制成的枪，人们只知将那矿石称为异乡之石。",
+    "DESCRIPTIONS": [
+      "获得时，随机获得一件其他角色的初始遗物。"
+    ]
+  },
+  "granblueskies:TiensPortrait": {
+    "NAME": "艾瑟尔的肖像",
+    "FLAVOR": "十天众之一。十天众傲立苍穹，拦住一切试图成为灾厄的存在。",
+    "DESCRIPTIONS": [
+      "每击杀一个敌人，获得等于当前 #y金币 10% 的金币。"
+    ]
+  }
+}

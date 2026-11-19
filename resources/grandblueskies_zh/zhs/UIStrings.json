@@ -1,0 +1,115 @@
+{
+  "granblueskies:Example": {
+    "TEXT": [
+      "这里是",
+      "一组文本。"
+    ],
+    "EXTRA_TEXT": [
+      "另一组",
+      "附加文本。"
+    ],
+    "TEXT_DICT": {
+      "This": "键和值成对使用，可按键查找文本。",
+      "This is a key": "这里是该键对应的文本。"
+    }
+  },
+  "granblueskies:your_intent": {
+    "TEXT": [
+      "特殊意图",
+      "该敌人准备行动。 NL 相关数值为 #b",
+      " 和 ",
+      "。"
+    ]
+  },
+  "granblueskies:InstaKillIntent": {
+    "TEXT": [
+      "即死",
+      "该敌人准备直接杀死你！"
+    ]
+  },
+  "granblueskies:MagicDamageIntent": {
+    "TEXT": [
+      "魔法伤害",
+      "该敌人准备 NL 造成 #b",
+      " 点 #y魔法伤害 。",
+      " 点 #y魔法伤害 ，共 #b",
+      " 次。"
+    ]
+  },
+  "granblueskies:AttackPlusMagicIntent": {
+    "TEXT": [
+      "攻击与附加效果",
+      "该敌人准备 NL 造成 ",
+      " 点伤害，攻击 ",
+      " 次，",
+      "并施加一种非减益效果。",
+      "该敌人准备 NL 造成伤害，并施加一种非减益效果。"
+    ]
+  },
+  "granblueskies:SetHealthIntent": {
+    "TEXT": [
+      "改变生命",
+      "该敌人准备 NL 直接改变你的生命。",
+      "该敌人准备 NL 将你的生命设为 #b",
+      " 点。"
+    ]
+  },
+  "granblueskies:UnblockableDamageIntent": {
+    "TEXT": [
+      "失去生命",
+      "该敌人准备 NL 使你失去生命。",
+      "该敌人准备 NL 使你失去 #b",
+      " 点生命。",
+      "该敌人准备 NL 使你失去生命 #b",
+      " 次，每次失去 #b",
+      " 点。"
+    ]
+  },
+  "granblueskies:LinkedRewardItem": {
+    "TEXT": [
+      "联动卡牌奖励"
+    ]
+  },
+  "granblueskies:Act1Skies": {
+    "TEXT": [
+      "空之群岛",
+      "第一幕",
+      "#b墙上的 #b裂隙 #b泛着 #b蓝光。 #b一缕 #b微风 #b从 #b里面 #b吹来， #b意外 #b地 #b令人 #b舒畅。 #b你 #b向 #b裂隙 #b深处望去，只见一片苍蓝。",
+      "#b穿过 #b墙上 #b发光的 #b裂隙。",
+      "穿过墙上发光的裂隙。",
+      "一片浮空群岛，各属性的星晶兽栖息于此。"
+    ]
+  },
+  "granblueskies:ConfigMenu": {
+    "TEXT_DICT": {
+      "enableDMCAMusic": "播放有版权限制的原作配乐。",
+      "modestyFilter": "启用替换美术。替换图像的画质较低，重启后生效。",
+      "enableDebug": "启用调试功能和开发中的内容。正常游玩建议关闭，重启后生效。",
+      "enableExtraRewards": "在指定战斗结束后发放额外奖励。启用这些奖励符合模组的平衡设定。",
+      "easyUnlockFullArt": "下一局结束后解锁所有阿卡姆牌奖励的全插画版本。",
+      "enableStartOfActEvents": "启用各幕开场的自定义事件。启用这些事件符合模组的平衡设定，重启后生效。"
+    }
+  },
+  "granblueskies:Act2Arcarum": {
+    "TEXT": [
+      "阿卡姆转世：彼方世界",
+      "第二幕",
+      "#b一座 #b宁静的 #b城市 #b坐落在 #b浮空岛 #b上。 #b这片 #b土地 #b虽 #b不同寻常， #b街上 #b却 #b有 #b不少 #b你 #b认得 #b出的 #b类人 #b种族 #b在 #b此 #b生活。",
+      "#b循着 #b命运的 #b丝线。",
+      "进入浮空岛上的城市。",
+      "因果的守护者从长眠中醒来，欲毁去旧世界，再造新世界。"
+    ]
+  },
+  "granblueskies:CampfireOdiousRelicExorcismOption": {
+    "TEXT": [
+      "驱除邪秽",
+      "解除所有邪秽遗物上的诅咒。"
+    ]
+  },
+  "granblueskies:CampfireRelicExorcismOption": {
+    "TEXT": [
+      "驱除邪秽",
+      "解除所有邪秽遗物上的诅咒。"
+    ]
+  }
+}

@@ -1,0 +1,187 @@
+[
+  {
+    "PROPER_NAME": "示例关键词",
+    "NAMES": [
+      "示例关键词",
+      "these",
+      "are",
+      "detected",
+      "in",
+      "the",
+      "text"
+    ],
+    "DESCRIPTION": "这段说明会显示在提示框中。多词关键词请参照下一项。"
+  },
+  {
+    "PROPER_NAME": "多词关键词",
+    "NAMES": [
+      "多词关键词",
+      "multiword keyword",
+      "multiword_keyword",
+      "multiword_keywords"
+    ],
+    "DESCRIPTION": "首个别名用于显示，其余别名可用下划线连接多个单词。"
+  },
+  {
+    "PROPER_NAME": "粉色",
+    "NAMES": [
+      "粉色",
+      "pink"
+    ],
+    "DESCRIPTION": "可用 COLOR 字段将关键词设为粉色。",
+    "COLOR": "fc83da"
+  },
+  {
+    "ID": "BlueCrystal",
+    "PROPER_NAME": "蓝色水晶",
+    "NAMES": [
+      "蓝色水晶",
+      "blue crystal",
+      "Blue_Crystal",
+      "blue_crystal"
+    ],
+    "DESCRIPTION": "每场战斗第一次获得 #y力量 、#y敏捷 、#y集中 或 #y真言 时，额外获得 #b1 点。"
+  },
+  {
+    "ID": "ProvidenceGlobe",
+    "PROPER_NAME": "天命之球",
+    "NAMES": [
+      "天命之球",
+      "providence globe",
+      "Providence_Globe",
+      "providence_globe"
+    ],
+    "DESCRIPTION": "与星晶兽缔结契约时，#y升级 对应的卡牌。"
+  },
+  {
+    "ID": "MemoryOfConstellations",
+    "PROPER_NAME": "星座的记忆",
+    "NAMES": [
+      "星座的记忆",
+      "memory of constellations",
+      "Memory_of_Constellations",
+      "memory_of_constellations"
+    ],
+    "DESCRIPTION": "与星晶兽缔结契约后，下场战斗开始时获得 [E]。"
+  },
+  {
+    "ID": "DamascusIngot",
+    "PROPER_NAME": "大马士革锭",
+    "NAMES": [
+      "大马士革锭",
+      "damascus ingot",
+      "Damascus_Ingot",
+      "damascus_ingot"
+    ],
+    "DESCRIPTION": "获得时，升级牌组中除基础 #y打击 和 #y防御 以外的所有牌。"
+  },
+  {
+    "ID": "LegendaryMerit",
+    "PROPER_NAME": "传奇功勋",
+    "NAMES": [
+      "传奇功勋",
+      "legendary merit",
+      "Legendary_Merit",
+      "legendary_merit"
+    ],
+    "DESCRIPTION": "获得时，移除牌组中除 #y打击 和 #y防御 以外的所有牌。 NL #y升级 之后获得的等量卡牌（#b至少 #b1 张）。"
+  },
+  {
+    "ID": "ShieldOfTenets",
+    "PROPER_NAME": "教义之盾",
+    "NAMES": [
+      "教义之盾",
+      "shield of tenets",
+      "Shield_of_Tenets",
+      "shield_of_tenets"
+    ],
+    "DESCRIPTION": "每当一张 #y稀有 牌加入牌组时，#y升级 那张牌。"
+  },
+  {
+    "ID": "Unrighteousness",
+    "PROPER_NAME": "不义",
+    "NAMES": [
+      "不义",
+      "Unrighteousness"
+    ],
+    "DESCRIPTION": "该生物被判有罪。本轮结束时，作为惩罚失去一半生命。"
+  },
+  {
+    "ID": "MagicDamage",
+    "PROPER_NAME": "魔法伤害",
+    "NAMES": [
+      "魔法伤害",
+      "magic damage",
+      "Magic_Damage",
+      "magic_damage"
+    ],
+    "DESCRIPTION": "可被格挡的非攻击伤害属于魔法伤害。"
+  },
+  {
+    "ID": "LovesRedemption",
+    "PROPER_NAME": "爱的救赎",
+    "NAMES": [
+      "爱的救赎",
+      "love's Redemption",
+      "Love's_Redemption",
+      "love's_redemption"
+    ],
+    "DESCRIPTION": "生命高于 50% 时，受到的 #y攻击 伤害减半。每轮结束减少 2 层，每打出一张牌减少 1 层。"
+  },
+  {
+    "ID": "ArcarumCards",
+    "PROPER_NAME": "阿卡姆牌",
+    "NAMES": [
+      "阿卡姆牌",
+      "arcarum cards",
+      "Arcarum_cards",
+      "arcarum_cards",
+      "Arcarum_card",
+      "arcarum_card"
+    ],
+    "DESCRIPTION": "进阶等级不超过 18 时，阿卡姆牌能解除 #y世界 的 #y全部 #y预兆 。"
+  },
+  {
+    "ID": "Dispel",
+    "PROPER_NAME": "驱散 X",
+    "NAMES": [
+      "驱散",
+      "Dispel",
+      "dispel"
+    ],
+    "DESCRIPTION": "移除目标身上的 X 个增益。"
+  },
+  {
+    "ID": "Cleanse",
+    "PROPER_NAME": "净化 X",
+    "NAMES": [
+      "净化",
+      "Cleanse",
+      "cleanse"
+    ],
+    "DESCRIPTION": "移除 X 个减益。"
+  },
+  {
+    "ID": "Astral",
+    "PROPER_NAME": "星之羁绊",
+    "NAMES": [
+      "星之羁绊",
+      "astral bond",
+      "Astral_Bond",
+      "astral_bond",
+      "Astral_Bonds",
+      "astral_bonds"
+    ],
+    "DESCRIPTION": "打出这张牌可以生成一张星之卡牌。"
+  },
+  {
+    "ID": "Trance",
+    "PROPER_NAME": "恍惚",
+    "NAMES": [
+      "恍惚",
+      "Trance",
+      "trance"
+    ],
+    "DESCRIPTION": "手中有 #y混沌 #y军团 时，每打出一张 #y稀有 牌增加 1 层，最多 3 层。层数越高，#y混沌 #y军团 的费用越低。达到 #b3 层时，#y攻击 额外造成 #b3 点伤害。"
+  }
+]
