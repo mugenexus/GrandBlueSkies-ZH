@@ -192,7 +192,7 @@
   },
   "granblueskies:ArcarumMoonCard": {
     "NAME": "月",
-    "DESCRIPTION": "granblueskies:阿卡姆牌 NL 造成 !D! 点伤害。 NL 接下来的 3 个回合，你的 攻击 依次额外造成 1、2、3 点伤害。"
+    "DESCRIPTION": "granblueskies:阿卡姆牌 NL 造成 !D! 点伤害。 NL 获得 granblueskies:月相 。"
   },
   "granblueskies:ArcarumSunCard": {
     "NAME": "太阳",

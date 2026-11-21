@@ -223,24 +223,6 @@
       " 点伤害。"
     ]
   },
-  "granblueskies:MoonCrescent": {
-    "NAME": "新月",
-    "DESCRIPTIONS": [
-      "你的 #y攻击 额外造成 1 点伤害。你的回合结束时，额外伤害提升。"
-    ]
-  },
-  "granblueskies:MoonQuarter": {
-    "NAME": "弦月",
-    "DESCRIPTIONS": [
-      "你的 #y攻击 额外造成 2 点伤害。你的下回合开始时，额外伤害提升。"
-    ]
-  },
-  "granblueskies:MoonFull": {
-    "NAME": "满月",
-    "DESCRIPTIONS": [
-      "本轮你的 #y攻击 额外造成 3 点伤害。"
-    ]
-  },
   "granblueskies:DEFUp": {
     "NAME": "防御提升",
     "DESCRIPTIONS": [
@@ -415,6 +397,32 @@
     "NAME": "恍惚（无法驱散，最多 3 层）",
     "DESCRIPTIONS": [
       "达到 #b3 层时，你的 #y攻击 额外造成 #b3 点伤害。"
+    ]
+  },
+  "granblueskies:ATKUp": {
+    "NAME": "攻击提升",
+    "DESCRIPTIONS": [
+      "该生物的 #y攻击 伤害提高 #b",
+      "%。"
+    ]
+  },
+  "granblueskies:IncantedOmenCardTypes": {
+    "NAME": "咏唱 #y预兆",
+    "DESCRIPTIONS": [
+      "打出不同类型的牌可改变该敌人的意图。",
+      "还需打出 #b",
+      " 种不同类型的牌，才能改变该敌人的意图。",
+      " 种不同类型的牌，才能改变该敌人的意图。"
+    ]
+  },
+  "granblueskies:LunarPhasePower": {
+    "NAME": "月相",
+    "DESCRIPTIONS": [
+      "新月",
+      "弦月",
+      "满月",
+      "：#y攻击 额外造成 #b",
+      " 点伤害。每回合结束时，月相渐盈至满月，再渐亏至新月，如此往复。"
     ]
   }
 }

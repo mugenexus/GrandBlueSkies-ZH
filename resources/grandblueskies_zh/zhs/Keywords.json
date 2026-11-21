@@ -183,5 +183,16 @@
       "trance"
     ],
     "DESCRIPTION": "手中有 #y混沌 #y军团 时，每打出一张 #y稀有 牌增加 1 层，最多 3 层。层数越高，#y混沌 #y军团 的费用越低。达到 #b3 层时，#y攻击 额外造成 #b3 点伤害。"
+  },
+  {
+    "ID": "LunarPhase",
+    "PROPER_NAME": "月相",
+    "NAMES": [
+      "月相",
+      "lunar phase",
+      "Lunar_Phase",
+      "lunar_phase"
+    ],
+    "DESCRIPTION": "#y攻击 在新月、弦月和满月时分别额外造成 1、2、3 点伤害。每回合结束时，月相由新月渐盈至满月，再渐亏至新月，如此往复。"
   }
 ]
