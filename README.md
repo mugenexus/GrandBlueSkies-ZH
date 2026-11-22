@@ -12,10 +12,10 @@
 
 ## 构建
 
-使用 JDK 8，在仓库根目录运行以下命令，把路径替换为本机的 ModTheSpire JAR：
+使用 JDK 8，在仓库根目录运行以下命令，把路径替换为本机的 ModTheSpire JAR 与游戏的 desktop-1.0.jar：
 
     mkdir build
-    javac -encoding UTF-8 -cp "ModTheSpire.jar 的完整路径" -d build src/grandblueskies_zh/ChineseLocalization.java
+    javac -encoding UTF-8 -cp "ModTheSpire.jar;desktop-1.0.jar" -d build src/grandblueskies_zh/*.java
     jar cf GrandBlueSkies-ZH-Patch.jar -C build .
     jar uf GrandBlueSkies-ZH-Patch.jar -C resources .
 
